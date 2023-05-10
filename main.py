@@ -10,9 +10,9 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Connect to the MySQL database
 db = mysql.connector.connect(
-    host="containers-us-west-35.railway.app:7522",  # Replace with your MySQL hostname
+    host="containers-us-west-88.railway.app:7577",  # Replace with your MySQL hostname
     user="root",  # Replace with your MySQL username
-    password="DmSPXyiiiyKCpggPBJlC",  # Replace with your MySQL password
+    password="YkoFfz8o6BxDylUjYhwf",  # Replace with your MySQL password
     database="railway"  # Replace with your MySQL database name
 )
 cursor = db.cursor()
