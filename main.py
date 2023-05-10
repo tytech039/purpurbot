@@ -15,4 +15,4 @@ async def on_member_join(member):
     role = discord.utils.get(member.guild.roles, id=1104611771060322327)  # Replace with your Role's ID
     await member.add_roles(role)
 
-bot.run('MTEwNTY3MDcyMDAwNjEyNzcwNg.GFYt21.68k13wvurNfYgqeKwRJX3N4jVGrYKosKFWL16g')
+bot.run(os.getenv('BOT_TOKEN'))
